@@ -55,7 +55,7 @@ The tool uses by default the Chi-Square test as a goodness of fit test for the d
 
 One can plug-in any other distributions or statistical test by changing the defaults used in `estimation_tool.py`. All the distributions are defined in the `distribution.py` file and the statistical tests are defined in the `statistical_testing.py` file.
 
-In the `distribution.py` file, there is a parent class for all the possible distributions which is called `Distribution` and there are the `ContinuousDistribution` and the `DiscreteDistribution` subclasses and each defined distribution is a subclass of either on.
+In the `distribution.py` file, there is a parent class for all the possible distributions which is called `Distribution` and there are the `ContinuousDistribution` and the `DiscreteDistribution` subclasses and each defined distribution is a subclass of either one.
 
 In the `statistical_testing.py` file, there is a parent class for all possible goodness of fit tests which is called `GoodnessOfFitTest`. There are two subclasses of this class which are `ContinuousDistributionGoodnessOfFitTest` and `DiscreteDistributionGoodnessOfFitTest` for testing continuous distributions and discrete distributions respectively.
 
